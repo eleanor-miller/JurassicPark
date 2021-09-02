@@ -57,3 +57,22 @@ A D V E N T U R E  M O D E
 E P I C  M O D E
 
     Learn how to read and write from a file. At the start of the program load all the dinosaurs from a file. When the program ends write out all the dinosaurs to the same file.
+
+
+     // TEST CODE
+        // DinosaurDatabase.Add("Sara", "Herbivore", 12500, 3);
+        // DinosaurDatabase.Add("Rex", "Carnivore", 13000, 1);
+        // DinosaurDatabase.Add("Steve", "Carnivore", 8000, 1);
+        // DinosaurDatabase.Add("Buttons", "Herbivore", 2, 100);
+        // DinosaurDatabase.Add("Godzilla", "Carnivore", 328000000, 1);
+
+        // DinosaurDatabase.Summary();
+
+        // DinosaurDatabase.Remove("Godzilla");
+
+        // DinosaurDatabase.Transfer("Buttons", 1000);
+
+        // DinosaurDatabase.View("Name");
+        // DinosaurDatabase.View("Enclosure Number");
+
+        // DinosaurDatabase.Summary();
