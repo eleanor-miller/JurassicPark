@@ -16,7 +16,6 @@ namespace JurassicPark
             bool keepGoing = true;
             string input = "";
 
-            // Try Switch here later
             while (keepGoing)
             {
                 Console.WriteLine("What do you want to do?");
@@ -103,12 +102,12 @@ namespace JurassicPark
                         string orderInput = Console.ReadLine();
                         if (orderInput.ToUpper() == "N")
                         {
-                          DinosaurDatabase.View("Name");
+                            DinosaurDatabase.View("Name");
                         }
-                        else 
+                        else
                         if (orderInput.ToUpper() == "E")
                         {
-                          DinosaurDatabase.View("Enclosure");
+                            DinosaurDatabase.View("Enclosure");
                         }
                         break;
 
